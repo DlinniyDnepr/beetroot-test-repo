@@ -10,14 +10,14 @@ if len(x) < 2:
 #The valid phone number program.
 
 x = input('Please, input your phone number: ')
-if x.isdigit()== False:
+while x.isdigit()== False:
     print('Please, use digits only!')
-if len(x)!= 10:
+    x = input('Please, input your phone number: ')
+while len(x)!= 10:
     print('Your number should contain 10 digits only!')
+    x = input('Please, input your phone number: ')
 else:
     print('Thank you!')
-#Интересно как создать петлю чтобы после показа
-#ошибки можно было вводить значение снова
 
 #Task3
 
