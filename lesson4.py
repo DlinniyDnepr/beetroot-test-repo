@@ -52,3 +52,9 @@ print('Task3')
 """
 main_list = list(range(0, 101))
 print(main_list)
+for index in main_list:
+ if index%7 == 0 and index%5 != 0:
+  print([index])
+  # output_list = []
+  # output_list = output_list.append(index)
+  # print(output_list)
