@@ -14,17 +14,8 @@ print('\nTask2')
 """
 1 создать рандом список1
 2создать рандом список 2
-3 сравнить их через Set and set"""
-# random_list1 = []
-# random_list2 = []
-# index = 0
-# while True:
-#     random_list1.append(random.randint(0, 10))
-#     random_list2.append(random.randint(0, 10))
-#     index += 1
-#     item = random_list1[index]
-#     if item in random_list2:
-#         print(item)
+3 сравнить их через Set and set
+"""
 
 random_list1 = []
 random_list2 = []
@@ -58,5 +49,3 @@ for index in main_list:
   output_list.append(index)
 print(f'\nА это список из целыйх чисел которые делятся на 7 но не делятся на 5  {output_list}')
 
-  # output_list = output_list.append(index)
-  # print(output_list)
