@@ -1,7 +1,6 @@
 print('\nTask 2\n')
 
 """Creating a dictionary.
-
 Create a function called make_country, 
 which takes in a country’s name and capital as parameters. 
 Then create a dictionary from those parameters, 
@@ -11,9 +10,14 @@ to make sure that it works as intended.
 """
 
 def make_country(name, capital):
-    dict_country = {}
-    dict_country['name': name]
-    dict_country['capital': capital]
-    print(dict_country.values)
+    dict_country = {
+        'name': name,
+        'capital': capital
+    }
+    for key in dict_country:
+        print(dict_country[key])
 
-print(make_country(Ukraine, Kiev))
+name = "Ukraine"
+capital = "Kiev"
+
+make_country(name, capital)
